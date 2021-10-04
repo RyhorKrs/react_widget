@@ -7,8 +7,12 @@ const createMPolyline = (state) => {
 
     let difference = allDegrees[allDegrees.length-1] - allDegrees[0];
 
-    if (difference < 8) {
+    if (difference < 7) {
         difference = 10;
+    } else if (difference >= 7 && difference < 15) {
+        difference = 5;
+    } else if (difference >= 15 && difference < 25) {
+        difference = 2;
     } else {
         return;
     }
