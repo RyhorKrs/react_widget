@@ -1,6 +1,6 @@
-const createMPolyline = (state) => {
+const createNPolyline = (state) => {
     let allDegrees = state.map(el => {
-        return el.m_temp;
+        return el.n_temp;
     });
 
     allDegrees.sort((a,b) => a-b);
@@ -23,7 +23,7 @@ const createMPolyline = (state) => {
             result += `${x},${y} `;
         } else {
             let x = 50 + 100 * i;
-            let y = 50 + (state[0].m_temp - state[i].m_temp) * difference;
+            let y = 50 + (state[0].n_temp - state[i].n_temp) * difference;
 
             result += `${x},${y} `;
         }
@@ -32,4 +32,4 @@ const createMPolyline = (state) => {
     return result;
 };
 
-export default createMPolyline;
+export default createNPolyline;
