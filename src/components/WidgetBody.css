@@ -89,3 +89,22 @@ h1 {
 .body_item:nth-of-type(3) .night_temp > span {
     top: 10px;
 }
+
+.morning_dot, .night_dot {
+    position: absolute;
+    z-index: 2;
+}
+
+.body_item:nth-of-type(3) .morning_dot,
+.body_item:nth-of-type(4) .morning_dot {
+    top: 35px;
+}
+
+.body_item:last-of-type .morning_dot {
+    top: 55px;
+}
+
+.body_item:nth-of-type(2) .night_dot,
+.body_item:nth-of-type(3) .night_dot {
+    top: 35px;
+}

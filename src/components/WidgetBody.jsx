@@ -20,9 +20,15 @@ let WidgetBody = (props) => {
                     </div>
                     <div className="morning_temp">
                         <span>23&deg;</span>
+                        <svg className="morning_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_temp">
                         <span>13&deg;</span>
+                        <svg className="night_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_img">
                         <img src={cloud} alt="Current weather" />
@@ -38,9 +44,15 @@ let WidgetBody = (props) => {
                     </div>
                     <div className="morning_temp">
                         <span>23&deg;</span>
+                        <svg className="morning_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_temp">
                         <span>14&deg;</span>
+                        <svg className="night_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_img">
                         <img src={moon} alt="Current weather" />
@@ -56,9 +68,15 @@ let WidgetBody = (props) => {
                     </div>
                     <div className="morning_temp">
                         <span>24&deg;</span>
+                        <svg className="morning_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_temp">
                         <span>14&deg;</span>
+                        <svg className="night_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_img">
                         <img src={cloud} alt="Current weather" />
@@ -74,9 +92,15 @@ let WidgetBody = (props) => {
                     </div>
                     <div className="morning_temp">
                         <span>24&deg;</span>
+                        <svg className="morning_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_temp">
                         <span>13&deg;</span>
+                        <svg className="night_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_img">
                         <img src={moon} alt="Current weather" />
@@ -92,9 +116,15 @@ let WidgetBody = (props) => {
                     </div>
                     <div className="morning_temp">
                         <span>22&deg;</span>
+                        <svg className="morning_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_temp">
                         <span>13&deg;</span>
+                        <svg className="night_dot" width="10" height="10">
+                            <circle r="3" cx="50%" cy="50%" fill="white" stroke="white" strokeWidth="2"/>
+                        </svg>
                     </div>
                     <div className="night_img">
                         <img src={moon} alt="Current weather" />
