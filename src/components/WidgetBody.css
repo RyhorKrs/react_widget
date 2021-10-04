@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 200;
+    color: white;
+}
+
+.widget_body {
+    display: flex;
+    position: relative;
+}
+
+.morning_line {
+    position: absolute;
+    top: 200px;
+}
+
+.night_line {
+    position: absolute;
+    top: 300px;
+}
+
+.body_item > div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body_item:nth-child(2) {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+.body_item:first-child {
+    opacity: 0.5;
+}
+
+.morning_img img, .night_img img {
+    width: 50px;
+    height: 50px;
+}
+
+.morning_temp {
+    position: relative;
+}
+
+.morning_temp > span {
+    position: absolute;
+    top: 20px;
+}
+
+.body_item:nth-of-type(3) .morning_temp > span,
+.body_item:nth-of-type(4) .morning_temp > span {
+    top: 10px;
+}
+
+.body_item:last-of-type .morning_temp > span {
+    top: 30px;
+}
+
+.night_temp {
+    position: relative;
+}
+
+.night_temp > span {
+    position: absolute;
+    top: 20px;
+}
+
+.body_item:nth-of-type(2) .night_temp > span,
+.body_item:nth-of-type(3) .night_temp > span {
+    top: 10px;
+}
