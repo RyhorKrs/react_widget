@@ -19,22 +19,17 @@ h1 {
     font-weight: 200;
 }
 
-.widget_body {
+.widgetBody {
     display: flex;
     position: relative;
 }
 
-.morning_line {
+.polylines {
     position: absolute;
     top: 200px;
 }
 
-.night_line {
-    position: absolute;
-    top: 300px;
-}
-
-.body_item > div {
+.bodyItem > div {
     width: 100px;
     height: 100px;
     text-align: center;
@@ -43,30 +38,30 @@ h1 {
     align-items: center;
 }
 
-.body_item:first-child {
+.bodyItem:first-child {
     opacity: 0.5;
 }
 
-.body_item:nth-child(2) {
+.bodyItem:nth-child(2) {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
 }
 
-.morning_img img, .night_img img {
+.morningImg img, .nightImg img {
     width: 50px;
     height: 50px;
 }
 
-.morning_temp, .night_temp {
+.morningTemp, .nightTemp {
     position: relative;
 }
 
-.morning_temp > span,
-.night_temp > span {
+.morningTemp > span,
+.nightTemp > span {
     position: absolute;
 }
 
-.morning_dot, .night_dot {
+.morningDot, .nightDot {
     position: absolute;
     z-index: 2;
 }
