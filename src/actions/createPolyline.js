@@ -1,11 +1,8 @@
 const createPolyline = (state, partOfDay) => {
-  let allDegrees = [];
-
-  if (partOfDay === "m") {
-    allDegrees = state.map(el => el.mTemp);
-  } else if (partOfDay === "n") {
-    allDegrees = state.map(el => el.nTemp);
-  }
+  let allDegrees =
+    partOfDay === "m"
+      ? state.map((el) => el.mTemp)
+      : state.map((el) => el.nTemp);
 
   allDegrees.sort((a, b) => a - b);
 

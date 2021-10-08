@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App state={state} />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 reportWebVitals();
